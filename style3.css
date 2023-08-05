@@ -1,0 +1,48 @@
+body{
+    color:white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-image: url("photos/mkce.jpg");
+}
+.regform{
+    width:500px;
+    margin:250px auto;
+    padding:10px 30px 30px;
+    background-color:rgba(0, 0, 0,0.5);
+    font-size: 30px;
+    border-radius: 10px;
+}
+.regform h2{
+    color:rgb(255, 255, 255);
+    text-align: center;
+}
+.regform label{
+    display:block
+}
+
+
+.input input{
+    width:90%;
+    font-size:1em;
+    border:1px solid white;
+    border-radius: 4px;
+    padding:3px;
+    color:rgb(0, 0, 0);
+    box-sizing:border-box;
+    margin:5px 0px 10px;
+}
+
+
+input:focus{
+    background-color: rgb(222, 227, 232);
+}
+.button{
+    text-align:center;
+}
+button{
+    font-size:25px;
+    color: rgb(36, 29, 29) ;
+    border-radius: 10px;
+    margin-top: 10px;
+    padding:15px;
+    border: 2px solid rgb(0, 0, 0);
+}

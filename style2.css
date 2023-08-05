@@ -1,0 +1,55 @@
+body{
+    background-color: rgb((90, 89, 89)90, 89, 89);
+    background-image: url("photos/mkce.jpg");
+
+  }
+  input[type=text],[type=number],[type=date],[type=Email], select{
+      width: 100%;
+      padding: 10px 20px;
+      margin: 9px 0;
+      display: inline-block;
+      border: 0.1px solid #3d3b3b;
+      border-radius: 4px;
+      box-sizing: border-box;
+    }
+    
+    input[type=submit] {
+      width: 100%;
+      background-color: rgb(43, 42, 42);
+      color: white;
+      padding: 14px 20px;
+      margin: 8px 0;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    
+    input[type=submit]:hover {
+      background-color:#6b6b6b;
+    }
+    
+    div {
+      border-radius: 5px;
+      background-color: rgb(253, 192, 202);
+      padding: 10px;
+      box-sizing:auto ;
+      width: 500px;
+      display: inline-block;
+      
+  
+      
+    }
+    .form-center{
+      display: flex;
+      justify-content: center;
+      margin: auto;
+      width: 40%;
+      background-color:rgba(0, 0, 0,0.5);
+    }h1{
+      text-align: center;
+    }
+    a:hover{
+      color: aliceblue;
+      background-color: transparent;
+      text-decoration: none;
+    }
